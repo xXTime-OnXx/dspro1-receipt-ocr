@@ -7,6 +7,6 @@ In this project, we aim to use existing Optical Character Recognition (OCR) tech
 * [Timon Schmid](https://github.com/xXTime-OnXx)
 
 ## Scientific Report
-The scientific report is written with latex with the overleaf online editor.
+The scientific report is written with typst in its online editor.
 
-[Overleaf - DSPRO1 - Receipt OCR](https://www.overleaf.com/project/671df1e93ed6d3b699cc0deb)
+[Typst - DSPRO1 - Receipt OCR](https://typst.app/project/rs36toeDbhw387QveWmAnS)
