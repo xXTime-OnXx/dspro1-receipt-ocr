@@ -363,5 +363,45 @@
                 "RECEIPT_ITEM"
             ]
         ]
+    },
+    {
+        "text": "RISTORANTE\nBELLAGIO (CO)\nTELEFONO 031951888\n\nEY aerate Coenen eyes Sto oe\n\nTAV. 9 COPERTI 4\nSALA UNICA\n147072019 16:23\n\n4 COPERTO 12.00\n2 ACQUA NAT 8.00\n1 SALMERINO PIASTRA 18.00\n1 TRENETTE AL PESTO 13.00\n1 SPAGHETTI POM. BASILICO 10.00\n1 FETTUCCINE RAGU\u2019 15.00\n1\u2014-PATATINE FRITTE 6.00\n\nTOKE \u00a7\u00bb\u2014 \u00ab82.0\n\nERE Tee oi sss\n\nPrego ritirare i]\ndocumento fiscale\nalla cassa\n",
+        "entities": [
+            [
+                120,
+                135,
+                "RECEIPT_ITEM"
+            ],
+            [
+                136,
+                152,
+                "RECEIPT_ITEM"
+            ],
+            [
+                153,
+                178,
+                "RECEIPT_ITEM"
+            ],
+            [
+                179,
+                204,
+                "RECEIPT_ITEM"
+            ],
+            [
+                205,
+                236,
+                "RECEIPT_ITEM"
+            ],
+            [
+                237,
+                261,
+                "RECEIPT_ITEM"
+            ],
+            [
+                262,
+                285,
+                "RECEIPT_ITEM"
+            ]
+        ]
     }
 ]
