@@ -71,7 +71,7 @@ def train_ner(data_path, output_dir, iterations=30, batch_size=8, dropout=0.5):
 
 if __name__ == "__main__":
     # Define paths and parameters
-    DATA_PATH = "./pocs/spacy-ner/training/training_data.json"  # Path to your training data file
+    DATA_PATH = "./pocs/spacy-ner/training/training_data_fabian.json"  # Path to your training data file
     OUTPUT_DIR = "./pocs/spacy-ner/trained_ner_model"  # Path to save the trained model
     ITERATIONS = 30  # Number of training iterations
     BATCH_SIZE = 8  # Batch size for training
