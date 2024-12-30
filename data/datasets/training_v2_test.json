@@ -1,0 +1,38 @@
+[
+    {
+        "image_name": "swiss_receipt_1.jpeg",
+        "text": "(2fv) Die Gastronomiegruppe\n\nHochschule Luzern\nInformatik 8 Wirtschaft\nC\u2018o ZFV-Unternehmungen\nFluelastrasse 51\n8047 Zurich\n\nCHF\nPizza Neapolitana 10.50\nRamseier Apfelschor] 3.00\n\nTotal CHF I, 00\n\nZ MASTERCARD 13,50\n\nMwSt\n\nMwSt Prozent Netto Brutto\n(1) 8.18 12,49 13.50 1.0]\n\nProfit Center: InHouse\n29.11.2024 11:36:49 #:2450 0p:568071 C56\n8002 $:568\n\nES bediente Sie - 9\u20ac1f Check\n\nKopie # ]\n\nCHE-105 827. 102 MWST\nVielen Dank und auf Wiedersehen\n\n",
+        "entities": [
+            [
+                128,
+                151,
+                "RECEIPT_ITEM"
+            ],
+            [
+                128,
+                145,
+                "RECEIPT_ITEM_NAME"
+            ],
+            [
+                146,
+                151,
+                "RECEIPT_ITEM_PRICE"
+            ],
+            [
+                152,
+                177,
+                "RECEIPT_ITEM"
+            ],
+            [
+                152,
+                172,
+                "RECEIPT_ITEM_NAME"
+            ],
+            [
+                173,
+                177,
+                "RECEIPT_ITEM_PRICE"
+            ]
+        ]
+    }
+]
