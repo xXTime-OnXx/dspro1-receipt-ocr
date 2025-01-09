@@ -1,0 +1,13 @@
+{
+  "labels":[
+    "RECEIPT_ITEM",
+    "RECEIPT_ITEM_NAME",
+    "RECEIPT_ITEM_PRICE",
+    "RECEIPT_ITEM_QUANTITY"
+  ],
+  "spans_key":"sc",
+  "threshold":0.5,
+  "max_positive":null,
+  "negative_weight":null,
+  "allow_overlap":true
+}

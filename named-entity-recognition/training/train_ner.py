@@ -1,3 +1,5 @@
+import os
+
 import spacy
 import random
 from spacy.training.example import Example
@@ -71,8 +73,8 @@ def train_ner(data_path, output_dir, iterations=30, batch_size=8, dropout=0.5):
 
 if __name__ == "__main__":
     # TODO: Adjust paths and parameters
-    DATA_PATH = "../../data/datasets/training_data_fabian.json"  # Path to your training data file
-    OUTPUT_DIR = "../models/receipts-ner-v02"  # TODO: make sure to use a new version
+    DATA_PATH = os.path.abspath("data/datasets/ner-swiss-receipts.json")  # Path to your training data file
+    OUTPUT_DIR = os.path.abspath("named-entity-recognition/models/receipts-ner-v02")  # TODO: make sure to use a new version
     ITERATIONS = 30  # Number of training iterations
     BATCH_SIZE = 8  # Batch size for training
     DROPOUT = 0.5  # Dropout rate
