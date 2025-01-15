@@ -8,12 +8,15 @@ from sklearn.model_selection import train_test_split
 nlp = spacy.blank("de")
 
 # Load Dataset
-with open("./data/datasets/ner-swiss-receipts.json", "r") as f:
-    dataset = json.load(f)
+with open("./data/datasets/ner-swiss-receipts-train.json", "r") as f:
+    train_dataset = json.load(f)
 
-# Split the dataset into training, validation, and test sets (80/10/10 split)
-train_data, temp_data = train_test_split(dataset, test_size=0.2, random_state=42)
-dev_data, test_data = train_test_split(temp_data, test_size=0.5, random_state=42)
+with open("./data/datasets/ner-swiss-receipts-test.json", "r") as f:
+    test_dataset = json.load(f)
+
+# Split the train_dataset (90% of data) into training, validation -> full datasplit of (80 / 10 / 10)
+train_data, dev_data = train_test_split(train_dataset, test_size=1/9, random_state=42)
+test_data = test_dataset
 
 # Function to convert data to DocBin
 def create_doc_bin(data, nlp):

@@ -22,9 +22,9 @@
     ],
     "spancat":[
       "RECEIPT_ITEM",
+      "RECEIPT_ITEM_QUANTITY",
       "RECEIPT_ITEM_NAME",
-      "RECEIPT_ITEM_PRICE",
-      "RECEIPT_ITEM_QUANTITY"
+      "RECEIPT_ITEM_PRICE"
     ]
   },
   "pipeline":[
@@ -39,10 +39,10 @@
 
   ],
   "performance":{
-    "spans_sc_f":0.6724637681,
-    "spans_sc_p":0.8345323741,
-    "spans_sc_r":0.5631067961,
-    "tok2vec_loss":0.8130189345,
-    "spancat_loss":589.3075562894
+    "spans_sc_f":0.7396226415,
+    "spans_sc_p":0.7903225806,
+    "spans_sc_r":0.695035461,
+    "tok2vec_loss":0.7734493803,
+    "spancat_loss":496.0974819828
   }
 }
