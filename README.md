@@ -10,32 +10,3 @@ In this project, we aim to use existing Optical Character Recognition (OCR) tech
 The scientific report is written with typst in its online editor.
 
 [Typst - DSPRO1 - Receipt OCR](https://typst.app/project/rs36toeDbhw387QveWmAnS)
-
-## Different types of receipts
-This section provides an overview of the various formats and structures of receipts. It outlines common cases, specialized formats and rare exceptions, detailing the arrangement of elements such as item names, quantities, prices, and additional metadata like money saved or classifications.
-
----
-
-**Most common cases:**
-
-(Quantity) (Name) (Price)
-
-(Name) (Quantity) (Price)
-
-(Name) (Quantity) (Price/Unit) (Price)
-
-(Name) (Price)
-
----
-
-**Migros E-receipts:**
-
-(Name) (Quantity/Weight) (Price/Unit) (Money saved) (Price) (Classification)
-
----
-
-**Rare cases:**
-
-(Article Count) (Quantity) (Name) (Price)
-
----
