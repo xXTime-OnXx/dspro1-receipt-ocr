@@ -1,0 +1,205 @@
+.phoneContainer {
+  width: 360px;
+  height: 640px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.dashboardHeader {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.appTitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #222222;
+  padding-left: 10px;
+}
+
+.headerIcons span {
+  margin-left: 5px;
+}
+
+.dashboardBanner {
+  background-color: #d8e8f9;
+  color: #222222;
+  text-align: center;
+  padding: 60px;
+  margin: 20px;
+  height: 25%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.transactionsSection,
+.partnerFunctionsSection {
+  margin: 15px;
+}
+
+.transactionsSection h3,
+.partnerFunctionsSection h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.transactionIcon {
+  font-size: 24px;
+}
+
+.transactionDetails p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.transactionAmount {
+  font-weight: bold;
+}
+
+.showAllLink {
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  color: #c9d1db;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.partnerFunctions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.functionCard {
+  flex: 1 1 45%;
+  text-align: center;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.bottomActions {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.sendButton {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #c9d1db;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.requestButton {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #222222;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.payButton {
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  background-color: #c9d1db;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.tabMenu {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  font-size: 12px;
+}
+
+.tabActive {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 2px solid #e63d3a;
+  font-size: 12px;
+  color: #222222;
+}
+
+.backButton {
+  color: #e63d3a;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.divider {
+  border-left: 1px solid #ddd;
+}
+
+.inputSection {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.requestMoneyButtonInactive {
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  background-color: #e63d3a;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.requestMoneyButton {
+  background-color: #c9d1db;
+}
+
+.buttonContainerInactive {
+  padding-top: 332px; //TODO: fix this
+  // display: flex;
+}
