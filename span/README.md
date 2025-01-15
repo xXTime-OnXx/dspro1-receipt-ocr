@@ -79,15 +79,15 @@ TOK      100.00
 SPAN P   83.03 
 SPAN R   59.05 
 SPAN F   69.02 
-SPEED    31432 
+SPEED    31052 
 
 
 ============================== SPANS (per type) ==============================
 
                             P       R       F
-RECEIPT_ITEM            88.46   36.51   51.69
-RECEIPT_ITEM_PRICE      88.37   77.55   82.61
 RECEIPT_ITEM_NAME       75.00   66.67   70.59
+RECEIPT_ITEM_PRICE      88.37   77.55   82.61
+RECEIPT_ITEM            88.46   36.51   51.69
 RECEIPT_ITEM_QUANTITY   85.00   59.65   70.10
 
 ✔ Saved results to metrics.json
