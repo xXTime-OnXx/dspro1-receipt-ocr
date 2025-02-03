@@ -1,0 +1,48 @@
+openapi: 3.0.0
+info:
+  title: Receipt OCR API
+  version: 1.0.0
+paths:
+  /receipt/image/items:
+    post:
+      summary: Extract items from receipt image
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                file:
+                  type: string
+                  format: binary
+      responses:
+        '200':
+          description: Successfully extracted items from receipt
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    quantity:
+                      type: integer
+                      example: 1
+                    name:
+                      type: string
+                      example: "Apple"
+                    price:
+                      type: number
+                      format: float
+                      example: 0.99
+        '400':
+          description: Bad request, invalid image or failed to decode image
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+                    example: "Uploaded file is not an image."
