@@ -6,6 +6,15 @@
   border-radius: 20px;
   overflow: hidden;
   font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.centeredContainer {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .dashboardHeader {
@@ -77,7 +86,7 @@
   display: block;
   text-align: right;
   font-size: 12px;
-  color: #c9d1db;
+  color: #e63d3a;
   text-decoration: none;
   margin-top: 5px;
 }
@@ -132,7 +141,7 @@
   margin: 15px;
   padding: 15px;
   text-align: center;
-  background-color: #c9d1db;
+  background-color: #e63d3a;
   color: #ffffff;
   font-size: 16px;
   font-weight: bold;
@@ -184,7 +193,7 @@
   justify-content: space-evenly;
 }
 
-.requestMoneyButtonInactive {
+.requestMoneyButton {
   margin: 15px;
   padding: 15px;
   text-align: center;
@@ -195,11 +204,99 @@
   border-radius: 5px;
 }
 
-.requestMoneyButton {
+.requestMoneyButtonInactive {
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
   background-color: #c9d1db;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: default;
 }
 
-.buttonContainerInactive {
-  padding-top: 332px; //TODO: fix this
-  // display: flex;
+.buttonContainer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.scrollableContent {
+  overflow-y: auto;
+  height: calc(100% - 200px);
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.removeUserButton {
+  width: 60px;
+  height: 100%;
+  font-size: 16px;
+  padding: 6px 0;
+  border: none;
+  background-color: #e63d3a;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addUserButton {
+  width: 60px;
+  height: 100%;
+  font-size: 16px;
+  padding: 6px 0;
+  border: none;
+  background-color: #e63d3a;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.splitButton {
+  width: 40px;
+  height: 100%;
+  padding: 3px;
+  border: none;
+  background-color: #e63d3a;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.okButton {
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #262626;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.successMessage {
+  margin: 15px;
+  padding: 15px;
+  // text-align: center;
+  // vertical-align: middle;
+  font-size: 18px;
+  font-weight: bold;
+
+  flex: 1; /* Add this line to take up available space */
+  display: flex; /* Add this line */
+  justify-content: center; /* Add this line */
+  align-items: center; /* Add this line */
+}
+
+.successContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
